@@ -1,2 +1,3 @@
-# to-do_list
-A jQuery project based to do web app
+# To-Do Application
+
+This is a simple jQuery, JavaScript, CSS and HTML project. It has some bootstrap inside.
