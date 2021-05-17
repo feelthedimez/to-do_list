@@ -1,0 +1,84 @@
+body {
+  font-family: Roboto;
+  background: linear-gradient(40deg, #55578a 10%, #291bc5);
+}
+
+.container {
+  width: 360px;
+  margin: 100px auto 0 auto;
+  padding: 10px 15px;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+  color: rgb(128, 128, 128);
+  text-decoration: line-through;
+}
+
+h1 {
+  background: #2980e9;
+  color: rgb(255, 255, 255);
+  /* margin: 0; */
+  padding: 10px 20px;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.fa-plus {
+  padding-top: 4px;
+  float: right;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background: rgb(255, 255, 255);
+  height: 40px;
+  line-height: 40px;
+  color: #666666;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
+}
+
+span {
+  background: #e74c4c;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0;
+  display: inline-block;
+  transition: 0.4s linear;
+  opacity: 0;
+}
+
+/* Style Every 2nd li */
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+input {
+  font-size: 18px;
+  color: #2980e9;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  outline: none;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+  background: rgb(255, 255, 255);
+  border: 3px solid #2980e9;
+  outline: none;
+}
